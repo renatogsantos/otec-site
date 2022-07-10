@@ -1,0 +1,35 @@
+.button-one {
+  background: $color-1;
+  box-shadow: 0px 10px 30px rgba(41, 62, 125, 0.5);
+  border-radius: 20px;
+  height: 60px;
+  padding: 0 30px;
+  color: $light;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: auto;
+  text-transform: uppercase;
+  transition: 0.1s ease-out;
+  max-width: 200px;
+  text-align: center;
+  margin: 5px;
+}
+
+.button-one:hover {
+  transition: 0.1s ease-in;
+  transform: translateY(5px);
+  box-shadow: 0px 5px 15px rgba(41, 62, 125, 0.5);
+  color: $light;
+}
+
+.button-one:active {
+  background-color: $color-2;
+  transform: translateY(8px);
+  box-shadow: 0px 5px 5px rgba(41, 62, 125, 0.5);
+  color: $light;
+}
