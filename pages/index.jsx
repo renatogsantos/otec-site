@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import { Col, Container, Row } from "react-bootstrap";
 import ButtonOne from "../components/button/ButtonOne";
@@ -29,7 +30,7 @@ export default function Home() {
             </div>
           </Col>
           <Col className="col-12 col-lg-6 py-5">
-            <img draggable={false} width="100%" src="/images/man.png" className="vibrate-1"/>
+            <img draggable={false} width="100%" src="/images/man.png" className="vibrate-1" alt="Home apontando para o lado esquerdo da tela"/>
           </Col>
         </Row>
       </Container>

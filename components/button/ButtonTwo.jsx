@@ -7,6 +7,7 @@ export default function ButtonTwo(props) {
       href={props.link}
       target={props.target == true ? "_blank" : ""}
       className="button-two"
+      rel="noreferrer"
     >
       {props.title}
     </a>
