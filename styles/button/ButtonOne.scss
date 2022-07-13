@@ -17,19 +17,19 @@
   transition: 0.1s ease-out;
   text-align: center;
   margin: 5px;
-  max-width: 250px;
+
+  &:hover {
+    transition: 0.1s ease-in;
+    transform: translateY(5px);
+    box-shadow: 0px 5px 15px rgba(41, 62, 125, 0.5);
+    color: $light;
+  }
+
+  &:active {
+    background: $color-2;
+    transform: translateY(8px);
+    box-shadow: 0px 5px 5px rgba(41, 62, 125, 0.5);
+    color: $light;
+  }
 }
 
-.button-one:hover {
-  transition: 0.1s ease-in;
-  transform: translateY(5px);
-  box-shadow: 0px 5px 15px rgba(41, 62, 125, 0.5);
-  color: $light;
-}
-
-.button-one:active {
-  background: $color-2;
-  transform: translateY(8px);
-  box-shadow: 0px 5px 5px rgba(41, 62, 125, 0.5);
-  color: $light;
-}

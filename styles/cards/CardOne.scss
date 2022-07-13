@@ -7,4 +7,10 @@
   align-items: center;
   justify-content: center;
   padding: 40px;
+  transition: 0.8s ease;
+  user-select: none;
+  &:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1) translateY(-10px);
+  }
 }

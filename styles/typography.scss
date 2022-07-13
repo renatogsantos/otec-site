@@ -9,12 +9,24 @@
   color: $color-3;
 }
 
+.p-14 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: auto;
+  display: flex;
+  align-items: center;
+
+  color: $color-2;
+}
+
 .p-16 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: auto;
   display: flex;
   align-items: center;
 

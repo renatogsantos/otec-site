@@ -38,6 +38,14 @@ export default function Home() {
             </Row>
           </Container>
         </Container>
+        <Container className="blue-box d-flex align-items-center justify-content-between p-2 text-light">
+          <div className="px-2">
+            <span>Entre em contato</span>
+          </div>
+          <div>
+            <ButtonTwo title="sobre nós" link="#about" target={false} />
+          </div>
+        </Container>
       </section>
 
       <section id="about">
@@ -59,7 +67,7 @@ export default function Home() {
                 </div>
               </Col>
               <Col className="col-12 col-lg-6 d-flex flex-column align-items-end">
-                <p className="p-16 pb-5">
+                <p className="p-14 pb-5 pt-4">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   dicta, iure impedit quibusdam iste doloremque officiis
                   accusantium recusandae excepturi, consequuntur cupiditate!
@@ -86,13 +94,13 @@ export default function Home() {
           <Container>
             <h3 className="title-primary pb-5">Nossos serviços</h3>
             <Row>
-              <Col className="col-12 col-lg-4">
+              <Col className="col-12 col-lg-4 p-3">
                 <CardOne />
               </Col>
-              <Col className="col-12 col-lg-4">
+              <Col className="col-12 col-lg-4 p-3">
                 <CardOne />
               </Col>
-              <Col className="col-12 col-lg-4">
+              <Col className="col-12 col-lg-4 p-3">
                 <CardOne />
               </Col>
             </Row>
