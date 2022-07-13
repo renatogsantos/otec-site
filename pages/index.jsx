@@ -86,13 +86,13 @@ export default function Home() {
           <Container>
             <h3 className="title-primary pb-5">Nossos serviços</h3>
             <Row>
-              <Col>
+              <Col className="col-12 col-lg-4">
                 <CardOne />
               </Col>
-              <Col>
+              <Col className="col-12 col-lg-4">
                 <CardOne />
               </Col>
-              <Col>
+              <Col className="col-12 col-lg-4">
                 <CardOne />
               </Col>
             </Row>
