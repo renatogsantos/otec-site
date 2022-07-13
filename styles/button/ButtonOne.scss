@@ -15,9 +15,9 @@
   line-height: auto;
   text-transform: uppercase;
   transition: 0.1s ease-out;
-  max-width: 200px;
   text-align: center;
   margin: 5px;
+  max-width: 250px;
 }
 
 .button-one:hover {
@@ -28,7 +28,7 @@
 }
 
 .button-one:active {
-  background-color: $color-2;
+  background: $color-2;
   transform: translateY(8px);
   box-shadow: 0px 5px 5px rgba(41, 62, 125, 0.5);
   color: $light;

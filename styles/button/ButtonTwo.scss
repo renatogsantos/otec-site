@@ -15,9 +15,9 @@
   line-height: auto;
   text-transform: uppercase;
   transition: 0.1s ease-out;
-  max-width: 200px;
   text-align: center;
   margin: 5px;
+  max-width: 250px;
 }
 
 .button-two:hover {
@@ -28,7 +28,7 @@
 }
 
 .button-two:active {
-  background-color: $color-3;
+  background: $grey;
   transform: translateY(8px);
   box-shadow: 0px 5px 5px rgba(41, 62, 125, 0.5);
   color: $color-2;
