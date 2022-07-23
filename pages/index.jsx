@@ -11,7 +11,7 @@ export default function Home() {
           <Container className="py-5">
             <Row className="d-flex align-items-center py-5">
               <Col className="col-12 col-lg-6">
-                <h1 className="py-5 title-primary">
+                <h1 className="py-5 title-h1">
                   Da abertura do CNPJ à gestão financeira com o seu assessor
                   especialista.
                 </h1>
