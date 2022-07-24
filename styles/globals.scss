@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "~bootstrap/scss/bootstrap";
 @import "./colors.scss";
 @import "./typography.scss";
@@ -14,18 +14,24 @@ html {
   box-sizing: border-box;
 }
 
-body {  
-  font-family: 'Montserrat', sans-serif !important;
+body {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .hero-1 {
-  background: radial-gradient(100% 303.43% at 0% 0%, #d2d5de 0%, #ffffff 100%);
+  background: url("/images/wall.svg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 120vh;
 }
 
-.blue-box {
-  background: $color-1;
-  border-radius: 20px;
-  box-shadow: 0px 10px 30px rgba(41, 62, 125, 0.5);
-  position: relative;
-  bottom: -50%;
+@media screen and (min-width: 728px) {
+  .hero-1 {
+    height: calc(100vh - 20px);
+  }
+}
+
+.card-img {
+  transform: scale(1.05);
 }

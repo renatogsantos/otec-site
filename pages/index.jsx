@@ -11,13 +11,12 @@ export default function Home() {
           <Container className="py-5">
             <Row className="d-flex align-items-center py-5">
               <Col className="col-12 col-lg-6">
-                <h1 className="py-5 title-h1">
+                <h1 className="title-h1 text-light" value="Otec Contabilidade">
                   Da abertura do CNPJ à gestão financeira com o seu assessor
                   especialista.
                 </h1>
-                <div className="d-md-flex">
-                  <ButtonOne title="abra sua empresa" link="#" target={false} />
-                  <ButtonTwo title="sobre nós" link="#about" target={false} />
+                <div className="d-md-flex py-3">
+                  <ButtonTwo title="entre em contato" link="#" target={false} />
                 </div>
               </Col>
               <Col className="col-12 col-lg-6 py-5">
@@ -31,14 +30,6 @@ export default function Home() {
             </Row>
           </Container>
         </Container>
-        <Container className="blue-box d-flex align-items-center justify-content-between p-2 text-light">
-          <div className="px-2">
-            <span>Entre em contato</span>
-          </div>
-          <div>
-            <ButtonTwo title="sobre nós" link="#about" target={false} />
-          </div>
-        </Container>
       </section>
 
       <section id="about">
@@ -48,18 +39,16 @@ export default function Home() {
             <Row className="d-flex align-items-center">
               <Col className="col-12 col-lg-6">
                 <div className="card-about">
-                  <div className="blue-box-one"></div>
-                  <div className="blue-box-two"></div>
                   <img
                     className="card-img"
                     draggable={false}
                     width="100%"
-                    src="/images/office-01.jpg"
+                    src="/images/office-1.png"
                     alt="imagem de escritório"
                   />
                 </div>
               </Col>
-              <Col className="col-12 col-lg-6 d-flex flex-column align-items-end">
+              <Col className="col-12 col-lg-6 d-flex flex-column align-items-center align-items-md-end">
                 <p className="p-14 pb-5 pt-4">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   dicta, iure impedit quibusdam iste doloremque officiis
