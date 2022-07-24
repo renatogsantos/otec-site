@@ -6,6 +6,7 @@
 @import "./button/ButtonTwo.scss";
 @import "./cards/CardOne.scss";
 @import "./animations.scss";
+@import "./navbar/navbar.scss";
 
 html {
   margin: 0;
@@ -22,7 +23,6 @@ body {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 @media screen and (min-width: 728px) {
