@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div>
       <section id="home">
-        <Container fluid className="hero-1 d-flex align-items-center">
+        <Container fluid className="hero-1 d-flex align-items-center p-0 m-0">
           <Container className="py-5">
             <Row className="d-flex align-items-center py-5">
-              <Col className="col-12 col-lg-6">
+              <Col className="col-12 col-lg-6 order-2 order-md-1 p-4">
                 <h1 className="title-h1 text-light" value="Otec Contabilidade">
                   Da abertura do CNPJ à gestão financeira com o seu assessor
                   especialista.
@@ -19,7 +19,7 @@ export default function Home() {
                   <ButtonTwo title="entre em contato" link="#" target={false} />
                 </div>
               </Col>
-              <Col className="col-12 col-lg-6 py-5">
+              <Col className="col-12 col-lg-6 py-5 order-1 order-md-2">
                 <img
                   draggable={false}
                   width="100%"

@@ -4,7 +4,6 @@
 @import "./typography.scss";
 @import "./button/ButtonOne.scss";
 @import "./button/ButtonTwo.scss";
-@import "./cards/CardAbout.scss";
 @import "./cards/CardOne.scss";
 @import "./animations.scss";
 
@@ -23,7 +22,7 @@ body {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 100vh;
 }
 
 @media screen and (min-width: 728px) {
